@@ -6,6 +6,7 @@ frontend:
       commands: 
            - npm install 
            - npm run build
+           - serve -s build
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: build/
